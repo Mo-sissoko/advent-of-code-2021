@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class template {
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -14,7 +13,6 @@ import java.util.Scanner;
       try {
         File input = new File("input.txt");
         Scanner scan = new Scanner(input);
-        Diver diver = new Diver();
         while(scan.hasNextLine()){
           // Do Something
         }
@@ -26,4 +24,4 @@ import java.util.Scanner;
 
   }
 
-}
+
